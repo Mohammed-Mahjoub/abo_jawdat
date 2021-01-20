@@ -286,7 +286,7 @@ public class aboJawdat extends javax.swing.JFrame {
                 + notes.getText()
         );
     }//GEN-LAST:event_saveActionPerformed
-
+login l = new login();
     private void clearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearActionPerformed
         // TODO add your handling code here:
         name.setText("");
@@ -297,7 +297,6 @@ public class aboJawdat extends javax.swing.JFrame {
         notes.setText("");
         jTextArea.setText("");
     }//GEN-LAST:event_clearActionPerformed
-login l = new login();
     private void backActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backActionPerformed
         // TODO add your handling code here:
         l.setVisible(true);
